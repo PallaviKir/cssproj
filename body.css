@@ -1,0 +1,92 @@
+body{
+    background-color: blanchedalmond;
+    background-color: #ff0404;
+    background-color: hsl(40, 20%, 50%);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    text-shadow: 60px 2px 5px blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+    text-decoration: overline;
+    letter-spacing: 10px;
+    font-style: italic;
+    
+}
+
+/* pre{ 
+    text-align: left;
+    word-wrap:break-word;
+    border: 2px solid black;
+    width: 150px; 
+    word-spacing:inherit;
+    padding-left: 10px;
+    width: 40em;
+    overflow: visible;
+    overflow-clip-margin:inherit;
+    overflow-inline: initial;
+    white-space: nowrap;
+    height: 100px;
+
+}
+ */
+/* p{ 
+    width: 30em;
+    border: 2px solid brown;
+    font-size: 14px;
+    height: 80px;
+    padding: 5px;
+    margin:20px;
+    text-align: justify;
+*/
+}
+h3{
+    border: 2px solid #ff0404  ;
+}
+a{
+    border: 2px solid rgb(255, 255,255);
+}
+
+/*div{ 
+    border: 2px solid brown;
+    width: 50%;
+    
+}
+*/
+p{
+   
+    /* width: 50%; */
+    height: 90px;
+    /* overflow: scroll; */
+    border-width: 5px 20px 5px 20px;
+    border-style: solid;
+    border-color: blue;
+    padding:5px 20px 5px 20px ; 
+    margin: 5px 20px 5px 20px;
+
+}
+h1::first-letter{
+    font-size: 30px;
+}
+h1:hover{
+   color: darkred;
+}  
+h2:hover{
+    color: darkred;  
+}
+a:hover{
+   color: pink;
+}
+p:hover{
+   text-decoration: underline;
+   color:navy;
+   background-color: yellow
+}
+h3{
+   border: 2px solid black;
+}
+

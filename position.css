@@ -1,0 +1,29 @@
+#position1{
+background-color: blue;
+height: 400px;
+width: 400px;
+position: relative;
+
+}
+
+#position2{
+    background-color:yellow;
+    height: 150px;
+    width: 150px;
+
+    /* position: relative; 
+    left: 40px;
+    top: 10px;*/
+
+    /* position: absolute; */
+    /* top:20px */
+
+    /* position: fixed; 
+    top: 50px;
+    left: 50px;*/
+
+    position: sticky;
+    top: 30px;
+
+    }
+

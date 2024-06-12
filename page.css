@@ -1,0 +1,60 @@
+.Abc{
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+
+    
+}
+.box{
+    height: 80px;
+    width: 150px;
+    background-color: blue;
+    border: 2px solid white;
+    text-align: center;
+  }
+.Xyz{
+    height: 200px;
+    width: 400px;
+    background-color: yellowgreen;
+}
+.para{
+    display:flex ;
+    /* flex-wrap: wrap; */
+}
+.box1{
+    background-color: red;
+    flex-shrink: 2;  
+.box2{
+    /* flex-shrink: 2; */
+    flex-grow: 2;
+} 
+}
+.para1{
+    background-color: blueviolet;
+    flex:1;
+    order: 2;
+}
+.para2{
+    background-color: pink;
+    flex:1;
+    order: 3;
+}
+.para3{
+    background-color: yellow;
+    flex:1;
+    order: 1;
+}
+.para4{
+    background-color: blue;
+    flex:1;
+    order: 4;
+}

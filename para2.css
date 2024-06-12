@@ -1,0 +1,49 @@
+#one{
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+    /* flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.two{
+    background-color: blue;
+    height: 90px;
+    width: 180px;
+    border: 2px solid white;
+    /* margin: 10px; */
+}
+.three{
+    display: flex;
+}
+.para1{
+    background-color: brown;
+    flex: 1;
+    order: 2;
+}
+.para2{
+    background-color: aqua;
+    flex: 1;
+    order: 3;
+
+}
+.para3{
+    background-color: green;
+    flex: 2;
+    order: 1;
+}
+.box2{
+    background-color: red;
+        flex-shrink: 2 ;
+        flex-grow: 3;
+}
+.box4{
+    flex-shrink: 3 ;
+    flex-grow: 2;
+}

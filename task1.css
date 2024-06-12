@@ -1,0 +1,21 @@
+.Abc{
+    background-color: aqua;
+    position: relative;
+    height: 400;
+    width: 300;
+}
+.A{
+    background-color: blue;
+    position: absolute;
+    color: aliceblue;
+    width: 130;
+    top: 5%;
+    left: 5%;
+}
+.B{
+    background-color: antiquewhite;
+    position: absolute;
+    left: 35%;
+    top: 5%;  
+    position: fixed;
+}

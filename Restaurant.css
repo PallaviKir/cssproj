@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    background-color: red;
+    color:aliceblue
+    }
+
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        text-decoration: underline;
+        background-color: red;
+        color:aliceblue
+        }
+    h3{
+        text-decoration: underline; 
+        text-align: center;
+        background-color:blue;
+        color:aliceblue
+        }
+    h4{
+        text-align: center;
+        text-decoration: underline;
+        background-color: red;
+        color:aliceblue
+        }
+    #abc{
+        height: 20px; 
+        padding: 20px;   
+        text-align: center;
+        background-color:yellow;
+        color:blue
+        
+        }
+     #xyz{
+        height: 20px; 
+        padding: 20px;       
+        text-align: center;
+        background-color:blue;
+        color:black
+        }

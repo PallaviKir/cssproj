@@ -1,0 +1,8 @@
+ .abc p {
+    width: 30%;
+    float: left;
+
+}
+.abc p:nth-child(4){
+    clear: left;
+}

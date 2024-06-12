@@ -1,0 +1,47 @@
+.square{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    
+}
+
+.square:hover{
+    background-color: brown;
+    transform: rotate(45deg);
+    /* transform: rotateX(45deg); */
+/* transform: rotateY(45deg); */
+/* transform: rotateZ(45deg); */
+/* transform: scale(2); */
+/* transform: scalex(2); */
+/* transform: scaleY(2); */
+transform: scalez(2);
+}
+
+.square1{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    
+}
+
+.square:hover1{
+    background-color: brown;
+    transform: rotate(45deg);
+    /* transform: rotateX(45deg); */
+/* transform: rotateY(45deg); */
+/* transform: rotateZ(45deg); */
+/* transform: scale(2); */
+/* transform: scalex(2); */
+/* transform: scaleY(2); */
+transform: scalez(2);
+}

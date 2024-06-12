@@ -1,0 +1,76 @@
+.abc{
+    
+         background: red; 
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        /* background: radial-gradient(circle, #ffcc00, #ff9900, #ff6600, #ff3300, #ff0000);  */
+        /* background: repeating-conic-gradient( 
+    from 0deg,
+    #ffcc00 0deg 10deg,
+    #ff0000 10deg 20deg
+  );*/
+  /* background: repeating-conic-gradient( 
+    from 0deg,
+    #ffcc00 0deg 45deg,
+    #ff0000 45deg 90deg,
+    #00ff00 90deg 135deg,
+    #0000ff 135deg 180deg
+  );*/
+
+   background: repeating-conic-gradient( 
+    from 0deg,
+    #ffcc00 0deg 30deg,
+    #ff0000 30deg 60deg,
+    #00ff00 60deg 90deg,
+    #0000ff 90deg 120deg,
+    #ffcc00 120deg 150deg,
+    #ff0000 150deg 180deg,
+    #00ff00 180deg 210deg,
+    #0000ff 210deg 240deg,
+    #ffcc00 240deg 270deg,
+    #ff0000 270deg 300deg,
+    #00ff00 300deg 330deg,
+    #0000ff 330deg 360deg
+  );
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Makes the div a circle */
+  background: repeating-conic-gradient(
+    from 45deg,
+    rgba(255, 204, 0, 0.8) 0deg 90deg,
+    rgba(255, 0, 0, 0.5) 90deg 180deg,
+    rgba(0, 255, 0, 0.7) 180deg 270deg,
+    rgba(0, 0, 255, 0.4) 270deg 360deg
+  );
+
+    /* width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 25% 25%, #ff0000 10%, transparent 10%);
+    background-size: 20px 20px;*/
+  
+    /* width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  background: #ffcc00;
+  background-image:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.2)),
+    linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.2));
+  background-size: 20px 20px;*/
+
+  /* width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  background: repeating-linear-gradient(
+    -45deg,
+    #ff0000,
+    #ff0000 10px,
+    #ffcc00 10px,
+    #ffcc00 20px);
+     margin: auto; */
+
+            
+
+}

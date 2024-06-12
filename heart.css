@@ -1,0 +1,32 @@
+body{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.heart1{
+    position: fixed;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    rotate: 45deg;
+}
+.heart2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    border-radius: 50%;
+    top: -50%;
+}
+.heart3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    border-radius: 50%;
+    left: -50%;
+
+}

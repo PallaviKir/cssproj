@@ -1,0 +1,14 @@
+.xyz{
+    height: 400px;
+    width: 400px;
+     background-color: blue; 
+    margin:auto;
+    border-radius: 50px;
+    border: 10px solid black;
+    background: linear-gradient(blue,yellow,green); 
+    background: linear-gradient(to right blue,yellow,green); 
+    /* background: linear-gradient(blue 30%,yellow 70%);  */
+    /* background: linear-gradient(90deg green,yellow); */
+    /* background: radial-gradient(blue,yellow,red); */
+
+}

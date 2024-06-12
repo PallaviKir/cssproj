@@ -1,0 +1,25 @@
+
+/* h3{
+    color: yellow;
+}
+h1{
+    color:red;
+}
+h2,h4{
+    color:blue;
+} */
+div>h1{
+    color: pink;
+}
+div>p{
+    color: yellow;
+}
+div a{
+    color: pink;
+}
+h2~h4{
+    color: blue;
+}
+h5+h6{
+    color: green;
+}

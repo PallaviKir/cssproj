@@ -1,0 +1,31 @@
+
+ .circle1{
+         border-radius: 50%;
+         margin: auto;
+         width: 200px;
+         height: 200px;
+         /* background: radial-gradient(blue,green,yellow); */
+         background-image: conic-gradient(yellow, pink,green,blue,white,red);
+}
+.circle2{ 
+         border-radius: 50%;
+         margin: auto;
+         width: 200px;
+         height: 200px;
+         background-image: repeating-conic-gradient(yellow 5%,red 20% );
+}
+.circle3{
+        border-radius: 50%;
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        background-image: repeating-conic-gradient(yellow 0deg 18deg,green 18deg 36deg,blue 36deg 54deg,red 54deg 72deg,indigo 72deg 90deg);
+}
+.circle4{
+         border-radius: 50%;
+         margin: auto;
+         width: 200px;
+         height: 200px;
+         background-image: repeating-conic-gradient(red 0deg 15deg,yellow 15deg 30deg);
+}
+h3{text-align: center;}

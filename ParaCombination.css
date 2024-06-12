@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+#pallavi{
+    background-color: #00aeff;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+   
+}
+#abc{
+    background-color: palevioletred;
+    height: 350px;
+    width: 50%;
+    border: black dotted 3px;
+    right: 50%;
+    position: absolute;
+    
+}
+#xyz{
+    background-color: chocolate;
+    height: 350px;
+    width: 50%;
+    border:black dotted 3px;
+    left: 50%;
+    position: relative;
+}
